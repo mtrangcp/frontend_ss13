@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 100px 0 54px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #dadada;
+}
+
+.logo {
+    height: 41px;
+    width: 185px;
+}
+
+.header-middle {
+    display: flex;
+    gap: 75px;
+}
+
+.header-right{
+    display: flex;
+    gap: 45px;
+}
+
+.link{
+    color: #000000;
+    font-weight: 500;
+    line-height: 24px;
+}
+.link:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all o.1s linear;
+}
+
+.header .icon{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+}
+
+
+
+.banner {}
+
+.product-range {}
+
+.our-product {}
+
+.beautiful-room {}
+
+.funiro-furniture {}
+
+.footer {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
