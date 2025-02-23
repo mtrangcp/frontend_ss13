@@ -66,15 +66,297 @@ li{
     object-fit: cover;
 }
 
+.banner {
+    width: 1440px;
+    height: 716.83px;
+    position: relative;
+}
 
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner .content{
+    position: absolute;
+    width: 643px;
+    height: 443px;
+    top: 153px;
+    left: 739px;
+    background-color: #FFF3E3;
+    padding: 62px 43px 37px 39px;
+}
 
-.banner {}
+.banner .content .p-1{
+    width: 123px;
+    height: 24px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #333333;
+}
 
-.product-range {}
+.banner .content .p-2{
+    width: 559px;
+    height: 127px;
+    line-height: 65px;
+    font-weight: 700;
+    font-size: 52px;
+    color: #B88E2F ;
+    margin: 4px 0 17px 0;
+}
 
-.our-product {}
+.banner .content .p3{
+    width: 546px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
 
-.beautiful-room {}
+.banner .content button{
+    margin-top: 46px;
+    width: 222px;
+    height: 74px;
+    background-color: #B88E2F;
+    padding: 25px 72px;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.product-range {
+    margin: 56.47px 126px 56px 131px;
+}
+
+.product-range .title{
+    text-align: center;
+    width: 559px;
+    height: 76.71px;
+    margin: 0 306px 62.29px 318px;
+}
+
+.product-range .title .p-1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #333333;
+}
+.product-range .title .p-2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.product-range .img{
+    display: flex;
+    gap: 20px;
+}
+
+.product-range .img .item{
+    text-align: center;
+}
+
+.product-range .img .item img{
+    width: 381px;
+    height: 480px;
+}
+
+.product-range .img .item p{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.our-product {
+    width: 1236px;
+    height: 1084px;
+    margin: 56px 102px 69px 102px;
+    text-align: center;
+}
+
+.our-product .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.our-product button{
+    width: 245px;
+    height: 48px;
+    border: 1px solid #B88E2F;
+    font-weight: 600;
+    font-size: 16px;
+    color: #B88E2F;
+    background-color: #FFFFFF;
+}
+
+.our-product .row{
+    margin-bottom: 32px;
+    display: flex;
+    gap: 32px;
+    text-align: left;
+}
+
+.our-product .row .item{
+    width: 285px;
+    height: 446px;
+    position: relative;
+}
+.our-product .row .item .img-product{
+    width: 100%;
+    height: 301px;
+    display: block;
+}
+
+.our-product .row .item .img-discount{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.our-product .row .item .info{
+    padding: 16px 20px 30px 16px;
+    background-color: #F4F5F7;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.our-product .row .item .info .p-1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #3A3A3A;
+}
+.our-product .row .item .info .p-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #898989;
+}
+
+.our-product .row .item .info .price {
+    display: flex;
+    gap: 16px;
+    padding: 3px 0;
+}
+
+.info .price p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3A3A3A;
+}
+
+.info .price del{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B0B0B0;
+}
+
+.beautiful-room {
+    width: 1440px;
+    height: 670px;
+    background-color: #FCF8F3;
+    padding: 44px 0 44px 100px;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+.beautiful-room .title{
+    width: 422px;
+}
+
+.beautiful-room .title .p-1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3A3A3A;
+}
+.beautiful-room .title .p-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    margin: 7px 0 25px 0;
+}
+
+.beautiful-room .title button{
+    width: 176px;
+    height: 48px;
+    background-color: #B88E2F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.beautiful-room .img{
+    width: fit-content;
+    height: 528px;
+    display: flex;
+    gap: 24px;
+    position: relative;
+    background-color: #dadada;
+}
+
+.beautiful-room .img .img1{
+    width: 404px;
+    height: 528px;
+}
+
+.beautiful-room .img .active{
+    display: flex;
+    gap: 24px;
+}
+.beautiful-room .img .active .img2{
+    width: 372px;
+    height: 486px;
+}
+
+.beautiful-room .img .active .img3{
+    height: 486px;
+}
+
+.beautiful-room .img .next{
+    height: 130px;
+    width: 265px;
+    position: absolute;
+    left: 588px;
+    bottom: 68px;
+    display: flex;
+}
+
+.beautiful-room .img .next .info{
+    width: 217px;
+    height: 130px;
+    background-color: #FFFFFFB8 ;
+}
+
+.beautiful-room .img .next .item{
+    width: 48px;
+    height: 48px;
+}
+
+.beautiful-room .img .next-circle{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 55px;
+    bottom: 267px;
+}
 
 .funiro-furniture {}
 
