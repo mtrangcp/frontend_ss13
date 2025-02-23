@@ -305,21 +305,20 @@ li{
 
 .beautiful-room .img{
     width: fit-content;
-    height: 528px;
     display: flex;
     gap: 24px;
     position: relative;
-    background-color: #dadada;
 }
 
 .beautiful-room .img .img1{
     width: 404px;
-    height: 528px;
+    height: 100%;
 }
 
 .beautiful-room .img .active{
     display: flex;
     gap: 24px;
+    position: relative;
 }
 .beautiful-room .img .active .img2{
     width: 372px;
@@ -330,12 +329,47 @@ li{
     height: 486px;
 }
 
+.beautiful-room .img .active .circle{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #D8D8D8;
+}
+
+.beautiful-room .img .active .circle-1 {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #B88E2F;
+}
+
+.beautiful-room .img .active .cir{
+    width: 120px;
+    height: 27px;
+    position: absolute;
+    left: 0;
+    bottom: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.beautiful-room .img .active .cir .first-cir{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid #B88E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .beautiful-room .img .next{
     height: 130px;
     width: 265px;
     position: absolute;
-    left: 588px;
-    bottom: 68px;
+    left: 24px;
+    bottom: 24px;
     display: flex;
 }
 
@@ -343,14 +377,31 @@ li{
     width: 217px;
     height: 130px;
     background-color: #FFFFFFB8 ;
+    padding: 32px 0 32px 32px;
+}
+
+.beautiful-room .img .next .info .p-1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    margin-bottom: 8px;
+}
+
+.beautiful-room .img .next .info .p-2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33.6px;
+    color: #3A3A3A;
 }
 
 .beautiful-room .img .next .item{
     width: 48px;
     height: 48px;
+    margin-top: 82px;
 }
 
-.beautiful-room .img .next-circle{
+.beautiful-room .next-circle{
     width: 48px;
     height: 48px;
     position: absolute;
@@ -358,9 +409,100 @@ li{
     bottom: 267px;
 }
 
-.funiro-furniture {}
+.funiro-furniture {
+    width: 1440px;
+    height: 780px;
+    position: relative;
+    margin: 67px 0 50px 0;
+}
 
-.footer {}
+.funiro-furniture .title .p-1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #616161;
+    text-align: center;
+}
+
+.funiro-furniture .title .p-2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3A3A3A;
+    text-align: center;
+}
+
+.funiro-furniture .funi1{
+    width: 78px;
+    height: 382px;
+    position: absolute;
+    left: 0;
+    top: 59px;
+}
+.funiro-furniture .funi2 {
+    width: 451px;
+    height: 312px;
+    position: absolute;
+    left: 94px;
+    top: 129px;
+}
+.funiro-furniture .funi3 {
+    width: 295px;
+    height: 392px;
+    position: absolute;
+    left: 561px;
+    top: 215px;
+}
+.funiro-furniture .funi4 {
+    width: 290px;
+    height: 348px;
+    position: absolute;
+    right: 278px;
+    top: 158px;
+}
+.funiro-furniture .funi5 {
+    width: 262px;
+    height: 433px;
+    position: absolute;
+    right: 0;
+    top: 73px;
+}
+
+.funiro-furniture .funi6 {
+    width: 185px;
+    height: 323px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.funiro-furniture .funi7 {
+    width: 344px;
+    height: 242px;
+    position: absolute;
+    left: 201px;
+    top: 457px;
+}
+.funiro-furniture .funi8 {
+    width: 178px;
+    height: 242px;
+    position: absolute;
+    right: 390px;
+    top: 522px;
+}
+.funiro-furniture .funi9 {
+    width: 258px;
+    height: 196px;
+    position: absolute;
+    right: 116px;
+    top: 522px;
+}
+
+.footer {
+    width: 1440px;
+    height: 505px;
+    padding: 48px 100px 38px 100px;
+    border-top: 1px solid #0000002B;
+}
 
 
 
